@@ -3,14 +3,15 @@
     <div class="md:tw-w-3/12 tw-w-full"></div>
     <div class="md:tw-w-6/12 tw-w-full md:tw-p-6">
       <v-card>
-        <v-card-title>Farm Konnect</v-card-title>
-        <div class="md:tw-p-6">
-          <h1> Check your Mail</h1>
-          <v-card-text> <p>
-            We sent a One Time Password.(OTP) We’ve sent a six-digit
-            confirmation code to ola***@gmail.com and 09099749***. Enter it
-            below to confirm your email address and mobile number.
-          </p>
+        <v-card-title>Check Your Email For One Time Password(OTP)</v-card-title>
+        <div class="md:tw-pb-6">
+          <!-- <h1> Check your Mail</h1> -->
+          <v-card-text>
+            <p>
+              We sent a One Time Password.(OTP) We’ve sent a six-digit
+              confirmation code to ola***@gmail.com and 09099749***. Enter it
+              below to confirm your email address and mobile number.
+            </p>
           </v-card-text>
 
           <v-otp-input
@@ -23,8 +24,6 @@
             @on-change="handleOnChange"
             @on-complete="handleOnComplete"
           />
-
-          
         </div>
       </v-card>
     </div>
