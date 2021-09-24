@@ -207,11 +207,14 @@ export default {
     NotificationModal
   },
   async asyncData({app}){
-    let store = app.store;
-    let url = store.state.apiStore.admin.fetchModels
-    let response = await axios.get(url);
-    let data = response.data;
-    let models = data.data;
+    // let store = app.store;
+    // let url = store.state.apiStore.admin.fetchModels
+    // let response = await axios.get(url);
+    // let data = response.data;
+    // let models = data.data;
+    let models = [
+      "New model"
+    ]
     return {models}
   },
   data: () => ({
