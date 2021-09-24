@@ -133,10 +133,6 @@ export default {
             text: 'All assets',
             to: 'all-assets',
           },
-          {
-            text: "Update assets",
-            to: 'update-assets'
-          }
         ],
       },
       {
@@ -151,24 +147,20 @@ export default {
             text: 'All models',
             to: 'all-models',
           },
-          {
-            text: "Edit models",
-            to: "update-models"
-          },
         ],
       },
       {
         icon: 'mdi-handshake-outline',
         text: 'Referral',
         subLinks: [
-          {
-            text: 'Referral history',
-            to: 'my-referrals',
-          },
-          {
-            text: 'Refer a friend',
-            to: 'refer-a-friend',
-          },
+          // {
+          //   text: 'Referral history',
+          //   to: 'my-referrals',
+          // },
+          // {
+          //   text: 'Refer a friend',
+          //   to: 'refer-a-friend',
+          // },
         ],
       },
       {
@@ -183,14 +175,14 @@ export default {
             text: 'Fund wallet',
             to: 'fund-wallet',
           },
-          {
-            text: 'Recent withdrawal',
-            to: 'recent-wihdrawal',
-          },
-          {
-            text: 'Recent deposit',
-            to: 'recent-deposit',
-          },
+          // {
+          //   text: 'Recent withdrawal',
+          //   to: 'recent-wihdrawal',
+          // },
+          // {
+          //   text: 'Recent deposit',
+          //   to: 'recent-deposit',
+          // },
         ],
       },
       {

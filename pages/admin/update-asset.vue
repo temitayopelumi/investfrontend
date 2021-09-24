@@ -1,13 +1,11 @@
 <template>
   <section>
     <div class="md:tw-flex">
-        <div class="md:tw-w-3/12"></div>
       <div class="md:tw-w-6/12 tw-w-full">
         <section>
-          <span class="tw-text-2xl tw-font-bold"> Update Assets </span>
+          <span class="tw-text-2xl tw-font-bold"> Update Asset </span>
         </section>
         <main class="tw-pt-6">
-          <v-card>
             <v-form>
               <div>
                 <v-text-field
@@ -115,7 +113,6 @@
                 <v-btn color="primary"> Submit </v-btn>
               </div>
             </v-form>
-          </v-card>
         </main>
       </div>
     </div>
