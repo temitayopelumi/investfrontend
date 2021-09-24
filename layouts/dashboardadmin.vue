@@ -151,10 +151,6 @@ export default {
             text: 'All models',
             to: 'all-models',
           },
-          {
-            text: "Edit models",
-            to: "update-models"
-          },
         ],
       },
       {

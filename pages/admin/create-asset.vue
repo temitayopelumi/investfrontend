@@ -208,10 +208,11 @@ export default {
   },
   async asyncData({app}){
     let store = app.store;
-    let url = store.state.apiStore.admin.fetchModels
-    let response = await axios.get(url);
-    let data = response.data;
-    let models = data.data;
+    // let url = store.state.apiStore.admin.fetchModels
+    // let response = await axios.get(url);
+    // let data = response.data;
+    // let models = data.data;
+    let models = ['new model', 'future model']
     return {models}
   },
   data: () => ({
