@@ -36,6 +36,13 @@
             >
                 More details
             </v-btn>
+            <v-spacer></v-spacer>
+            <v-btn
+                color="success"
+                text to="/admin/update-model"
+            >
+                Edit
+            </v-btn>
         </v-card-actions>
     </v-card>
 </template>

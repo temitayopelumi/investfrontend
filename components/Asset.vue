@@ -25,6 +25,13 @@
             >
                 More details
             </v-btn>
+            <v-spacer></v-spacer>
+            <v-btn
+                color="success"
+                text to="update-asset"
+            >
+                Edit
+            </v-btn>
         </v-card-actions>
     </v-card>
 </template>
