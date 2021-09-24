@@ -1,6 +1,6 @@
 <template>
-  <div class="md:tw-flex">
-    <div class="md:tw-w- 1/12 tw-p-1 tw-mt-1  tw-w-full">
+<div> <div class="md:tw-flex">
+    <div class="md:tw-w- 1/12 tw-p-1 tw-mt-1 tw-w-full">
       <v-card class="" height="100px"
         ><div class="tw-p-1">
           <span class="font-italic">Users</span>
@@ -92,11 +92,21 @@
       ></v-card>
     </div>
   </div>
+  <div class="md:tw-pt-5">
+    <Users />
+  </div>
+  
+  </div>
+ 
 </template>
 
 <script>
+import Users from '@/components/Users.vue'
 export default {
   layout: 'dashboardadmin',
+  components: {
+    Users
+  }
 }
 </script>
 
