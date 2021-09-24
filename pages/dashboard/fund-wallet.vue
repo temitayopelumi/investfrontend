@@ -3,7 +3,7 @@
     <section>
 
         <section>
-            <span class="tw-text-2xl tw-font-bold">Wallet Withdrawal</span>
+            <span class="tw-text-2xl tw-font-bold">Fund Wallet</span>
         </section>
 
         <section class="tw-pt-3">
@@ -51,7 +51,7 @@
     import WalletBalance from "@/components/WalletBalance"
     import Transactions from "@/components/Transactions"
     export default {
-        layout: 'dashboardadmin',
+        layout: 'dashboarduser',
         components: {
             WalletBalance,
             Transactions

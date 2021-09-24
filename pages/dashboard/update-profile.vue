@@ -53,7 +53,7 @@
 
 <script>
 export default {
-    layout: 'dashboardadmin'
+    layout: 'dashboarduser'
 }
 </script>
 

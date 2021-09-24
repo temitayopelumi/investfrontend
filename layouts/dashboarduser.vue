@@ -30,7 +30,7 @@
 
                     <v-list-item
                         v-if="!link.subLinks"
-                        :to="`/${link.to}`"
+                        :to="`/dashboard/${link.to}`"
                         class="tw-mb-5"
                     >
                         
@@ -58,7 +58,7 @@
 
                         <v-list-item
                             v-for="sublink in link.subLinks"
-                            :to="`/${sublink.to}`"
+                            :to="`/dashboard/${sublink.to}`"
                             :key="sublink.text"
                         >
                             <v-list-item-icon>
@@ -181,26 +181,26 @@ export default {
                     },
                 ]
             },
-            {
-                icon     : 'mdi-account-group-outline',
-                text     : 'Users',
-                subLinks : [
-                    {
-                        text : 'View users',
-                        to    : 'view-users',
-                    }
-                ]
-            },
-            {
-                icon     : 'mdi-shield-account-outline',
-                text     : 'Admins',
-                subLinks : [
-                    {
-                        text : 'View admins',
-                        to    : 'view-admins',
-                    }
-                ]
-            },
+            // {
+            //     icon     : 'mdi-account-group-outline',
+            //     text     : 'Users',
+            //     subLinks : [
+            //         {
+            //             text : 'View users',
+            //             to    : 'view-users',
+            //         }
+            //     ]
+            // },
+            // {
+            //     icon     : 'mdi-shield-account-outline',
+            //     text     : 'Admins',
+            //     subLinks : [
+            //         {
+            //             text : 'View admins',
+            //             to    : 'view-admins',
+            //         }
+            //     ]
+            // },
         ],
     }),
     methods: {
