@@ -24,6 +24,14 @@
             >
                 More details
             </v-btn>
+            <v-spacer></v-spacer>
+            <v-btn
+                color="success"
+                text
+                small
+            >
+                Edit
+            </v-btn>
         </v-card-actions>
     </v-card>
 </template>
