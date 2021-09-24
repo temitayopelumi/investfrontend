@@ -1,7 +1,7 @@
 <template>
   <v-dialog transition="dialog-bottom-transition" max-width="600">
     <template v-slot:activator="{ on, attrs }">
-      <v-btn  v-bind="attrs" v-on="on"> <v-icon color="blue">mdi-email-box
+      <v-btn  v-bind="attrs" v-on="on" color="primary"> <v-icon>mdi-email-box
           </v-icon></v-btn>
     </template>
     <template v-slot:default="dialog">

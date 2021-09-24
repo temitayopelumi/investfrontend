@@ -51,7 +51,7 @@
     import WalletBalance from "@/components/WalletBalance"
     import Transactions from "@/components/Transactions"
     export default {
-        layout: 'dashboardadmin',
+        layout: 'dashboarduser',
         components: {
             WalletBalance,
             Transactions
