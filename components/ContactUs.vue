@@ -1,8 +1,9 @@
 <template>
   <v-dialog transition="dialog-bottom-transition" max-width="600">
     <template v-slot:activator="{ on, attrs }">
-      <v-btn  v-bind="attrs" v-on="on" color="primary"> <v-icon>mdi-email-box
-          </v-icon></v-btn>
+      <v-btn v-bind="attrs" v-on="on" color="primary">
+        <v-icon>mdi-email-box </v-icon></v-btn
+      >
     </template>
     <template v-slot:default="dialog">
       <v-card>
@@ -15,9 +16,17 @@
           </v-form>
         </v-card-text>
         <v-card-actions class="justify-end">
-          <v-btn color="blue" text @click="dialog.value = false">Submit</v-btn>
+          <!-- <v-btn color="blue" text @click="dialog.value = false">Submit</v-btn> -->
+          <Button />
         </v-card-actions>
       </v-card>
     </template>
   </v-dialog>
 </template>
+<script>
+import Button from '@/components/Button'
+
+export default {
+  components: { Button },
+}
+</script>

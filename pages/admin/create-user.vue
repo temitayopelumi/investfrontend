@@ -12,7 +12,7 @@
       <div class="md:tw-w-6/12 tw-w-full">
         <main class="tw-pt-6 md:tw-px-16 tw-px-1">
           <v-card color="white" elevation="2" outlined>
-            <v-card-title>Recents users</v-card-title>
+            <v-card-title>Recent users</v-card-title>
 
             <v-card-text>
               <div
